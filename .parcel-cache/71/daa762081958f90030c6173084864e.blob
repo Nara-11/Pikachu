@@ -1,0 +1,7 @@
+const string='dajiahao'
+let n=1;
+demo.innerHTML=string.substr(0,n);
+setInterval(()=>{
+        n+=1;
+        demo.innerHTML=string.substr(0,n);
+    },300)

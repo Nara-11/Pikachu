@@ -1,0 +1,11 @@
+const string='dajiahao'
+let n=1;
+demo.innerHTML=string.substr(0,n);
+setInterval(()=>{
+        n+=1;
+        if(n>string.length){
+            window.clearInterval(id)
+            return
+        }
+        demo.innerHTML=string.substr(0,n);
+    },300)
